@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Beyoung website test">
+    <listeners>
+        <listener class-name="com.automation.listeners.ExtentReportListener"/>
+    </listeners>
+    <test name="Test Cases">
+        <classes>
+            <class name="com.automation.tests.SortByTest"/>
+            <class name="com.automation.tests.SearchTest"/>
+        </classes>
+    </test>
+</suite>
